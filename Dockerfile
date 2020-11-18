@@ -2,7 +2,7 @@ FROM alpine:3.8
 
 MAINTAINER cnych <icnych@gmail.com>
 
-ARG KUBE_VERSION="v1.13.4"
+ARG KUBE_VERSION="v1.18.10"
 
 RUN apk add --update ca-certificates \
  && apk add --update -t deps curl \
